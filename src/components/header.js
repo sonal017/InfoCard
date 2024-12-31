@@ -1,5 +1,5 @@
 import React from "react";
-import IMG from ""../../components/img/adminpic.jpeg";
+import IMG from "../components/img/adminpic.jpeg";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
