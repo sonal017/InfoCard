@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header */
+.head-info{
+    margin-top: 30px;
+    text-align: center;
+    width: 40vh;
+    height: 65vh;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color: rgb(42, 37, 37);
+    
+}
+
+.adpic{
+    height: 48vh;
+    width: 100%;
+    object-fit: cover;
+    border: none;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    
+}
+
+button{
+    width: 6rem;
+    color: black;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin: 20px 20px 20px 20px;
+}
+button > a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#email{
+    background-color: rgb(247, 247, 255);
+}
+#linkedin{
+    background-color: rgb(47, 111, 180);
+    
+}
+#linkedin > .linkedin-icon{
+    color: aliceblue;
+}
+.email-icon,.linkedin-icon{
+    padding-right: 5px;
+    font-size: 15px;
+}
+h2{
+    color: aliceblue;
+}
+h5{
+    color: rgb(120, 122, 124);
+}
+
+/* main */
+.main-info{
+    color: aliceblue;
+    text-align: center;
+   width: 40vh;
+   height: 56vh;
+   background-color: rgb(42, 37, 37);
+}
+h3,p{
+    text-align: start;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.5;
+}
+p{
+    padding-top: 5px;
+    overflow:hidden;
+    padding-bottom: 5px;
+    color: rgb(155, 161, 167);
+}
+
+/* footer */
+.foot-info{
+    color: aliceblue;
+    display: flex;
+    margin-top: 0px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+   width: 40vh;
+   height: 8vh;
+   padding-bottom: 10px;
+   background-color: rgb(42, 37, 37);
+}
+
+.foot-info > a{
+    color: rgb(155, 161, 167);
+    font-size: 1.5rem;
+}
+.foot-info > a:hover{
+    color: aliceblue;
+}
